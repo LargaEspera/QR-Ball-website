@@ -1,0 +1,287 @@
+* {
+    font-family:cursive;
+    margin: 0 0 0 0;
+}
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-track {
+    background: rgb(82, 34, 255);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 1) inset;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, red, green, blue);
+    border-radius: 8px;
+    border: 3px solid rgb(82, 34, 255);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, blue, red, green);
+}
+#parallax {
+    background: url("b74b2dfeca58f0955c51876c24fcf227.jpg");
+    background-attachment:fixed;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mainmenugame{
+    font-size: 25px;
+    color: brown;
+    float:left;
+    max-width: 45%;
+}
+.volunteer {
+    text-align: center;
+}
+#body {
+    background: url("wp5809590.png") center;
+    background-size:cover;
+    color:rgb(190, 190, 190);
+    background-color: rgba(105, 105, 105,0.1);
+    margin: 0 auto;
+    width: 100%;
+    max-width: 65%;
+    font-size: 20px;
+}
+.googlesearch {
+    float:right;
+    max-width: 30%;
+    margin: 1%;
+    color:white;
+    border:rgb(16, 19, 190) solid 1px ;
+}
+.search {
+    background-color: black;
+    color: white;
+}
+.searchButton {
+    background-color: rgb(51, 51, 51);
+    color:rgb(197, 197, 197);
+}
+.searchButton:hover {
+    background-color: blue;
+    color:rgb(197, 197, 197);
+}
+.loc {
+    text-align: center;
+}
+#map {
+    height: 400px;
+    width: 100%;
+  }
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+#nav {
+    float:right;
+}
+.aboutgame {
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 25px;
+} 
+.aboutgame:hover {
+    font-size: 28px;
+    color:rgb(152, 129, 255);
+    text-shadow: black;
+    text-decoration:overline;
+} 
+.donation {
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 25px;
+}
+.donation:hover {
+    font-size: 28px;
+    color:rgb(152, 129, 255);
+    
+    text-decoration:overline;
+} 
+.FAQ {
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 25px;
+}
+.FAQ:hover {
+    font-size: 28px;
+    color:rgb(152, 129, 255);
+    
+    text-decoration:overline;
+} 
+.ncontacts {
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 25px;
+}
+.ncontacts:hover {
+    font-size: 28px;
+    color:rgb(152, 129, 255);
+    text-shadow: black;
+    text-decoration:overline;
+}
+.download {
+    text-align: center;
+}
+.downloadD {
+    color:rgb(132, 0, 255);
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+}
+.downloadD:hover {
+    color: cyan;
+    text-align: center;
+    font-size: 35px;
+}
+.gamename {
+    text-decoration:none;
+    color:rgb(22, 238, 238);
+}
+.gamename:hover {
+    text-decoration:none;
+    color:rgb(84, 255, 54);
+}
+#header {
+    z-index: 12;
+    background-color:rgba(0, 0, 0, 0.7);
+    margin: 0 auto;
+    margin-top: 0%;
+    width: 100%;
+    max-width: 100%;
+    max-height: 200px;
+    min-height: 150px;
+}
+
+#footer {
+    background-color: rgba(24, 24, 24, 0.8);
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 100%;
+    max-width: 65%;
+    color:rgb(197, 197, 197);
+    text-shadow:black;
+    font-size: 20px;
+    max-height: 100%;
+}
+
+.copy {
+    text-align:center;
+}
+#me {
+    text-align: center;
+}
+.contact {
+    float:right;
+}
+.donat {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(250, 163, 82);
+    text-align: center;
+}
+.donat:hover {
+    text-decoration:underline;
+    font-size: 25px;
+    color: rgb(250, 163, 82);
+    text-align: center;
+}
+#skills {
+    float:right;
+    max-width: 25%;
+}
+.zapas {
+    text-align: center;
+}
+.midD {
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 25px;
+} 
+.midD:hover {
+    font-size: 28px;
+    color:rgb(152, 129, 255);
+    text-shadow: black;
+    text-decoration:overline;
+} 
+.up {
+    text-align: center;
+}
+.alert-primary {
+    background-color:aqua;
+    color: rgb(0, 0, 0);
+}
+.alert-success {
+    background-color: rgb(170, 48, 226);
+    color: rgb(255, 255, 255);
+}
+.btn-primary {
+    background-color: rgb(231, 247, 88);
+    color: black;
+}
+.scale {
+    transition: 0.5s;
+}
+.scale:hover{
+    transform: scale(1.2);
+}
+#comment-name {
+    background-color:lightgoldenrodyellow;
+}
+#comment-body {
+    background-color: lightgoldenrodyellow;
+}
+#nerab {
+    z-index: 1000;
+}
+.simple-rating::before {
+    content: "★★★★★";
+}
+.simple-rating {
+    position: relative;
+    font-size: 60px;
+    display: inline-block;
+}
+.simple-rating__items {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    overflow: hidden;
+}
+.simple-rating__item {
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    opacity: 0;
+    visibility: hidden;
+    top:0;
+    left:0;
+}
+.simple-rating__label {
+    flex: 0 0 20%;
+    height: 100%;
+    cursor: pointer;
+    color: aqua;
+}
+.simple-rating__label::before {
+    content: "★";
+    display: block;
+    transition: color 0.3s ease 0s;
+}
+
+.simple-rating__item:checked,
+.simple-rating__item:checked ~ .simple-rating__label{
+    color:orange;
+}
+
+.simple-rating__label:hover,
+.simple-rating__label:hover ~ .simple-rating__label,
+.simple-rating__label:checked ~ .simple-rating__label:hover{
+    color: gold;
+}
